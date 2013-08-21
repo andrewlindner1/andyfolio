@@ -1,0 +1,123 @@
+/*
+Theme Name: AndyFolio
+Theme URI: http://andy-clayton.me/wp-dev1/wp-content/themes/andyfolio
+Description: This theme is a portfolio theme with a simple blog and a way to post your work easily
+Version: 1.0
+Tags: clean, light, responsive, two-column, custom-post-types, custom-fields, portfolio
+
+Author: Andrew Clayton Lindner
+Author URI: http://andy-clayton.me
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+body {
+	width: 100%;
+	margin: 0 auto;
+	
+	padding-top: 0; 
+	background-image: url('/images/wavegrid.png');
+	color: #666;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+
+
+.slider-container{
+	height: 30em;
+	background-image: url('/images/greyzz.png');
+}
+
+
+
+
+
+/* General Styling for Page Layout */
+
+header {
+	
+		background-image: url('/images/dark_wood.png');
+		width: 100%;
+		height: 9em;
+		
+		
+}
+
+.header-container{
+	width: 90%; /*width: 980px;*/
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+
+.container{
+	width: 90%; /*width: 980px;*/
+	max-width: 980px;
+	margin: 0 auto;
+	
+}
+
+hgroup{
+	width: auto;
+	float: left;
+}
+
+.navigation{
+	width: auto;
+	float: right;
+	margin-top: 4em;
+}
+
+.navigation nav a{
+	padding: 1em;
+	height: 2em;
+	width: 4em;
+	border: 1px solid black;
+	margin-top: 4em;
+	margin-right: 1em;
+}
+
+
+
+.footer-widgets div{
+	display: inline-block;
+	width: 30%;
+	vertical-align:text-top;
+	
+	
+}
+
+.footer-widgets div h5{
+	text-align: center;
+	align: top;
+	background-image: url('/images/dark_wood.png');
+	height: 3em;
+	width: 100%;
+}
+
+.footer-right{
+	float: right;
+}
+
+.footer-middle{
+	margin-left: 3em;
+}
+
+.real-footer{
+	height: 9em;
+	background-image: url('/images/dark_wood.png');
+	padding-top: 3em;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
